@@ -5,6 +5,8 @@ int main()
     char name,hand=92;
     scanf("%c",&name);
     scanf("%d",&date);
+    if('Z'>=name&&name>='A'&&31>=date&&date>=1)
+    {
     if(date%10==5)
     {
         printf("%c",hand);
@@ -24,7 +26,7 @@ int main()
             printf("(T_T)");
         }
     }
-    else if(date%2==0)
+    if(date%2==0)
     {
         if(name>='A'&&name<='I')
         {
@@ -43,5 +45,5 @@ int main()
     {
         printf("/");
     }
-    return 0;
+    }
 }
