@@ -26,7 +26,7 @@ int main()
             printf("(T_T)");
         }
     }
-    if(date%2==0)
+    else if(date%2==0)
     {
         if(name>='A'&&name<='I')
         {
